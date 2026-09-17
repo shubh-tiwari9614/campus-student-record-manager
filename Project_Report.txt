@@ -1,37 +1,111 @@
-PROGRAMMING IN JAVA - PROJECT REPORT
+PROGRAMMING IN JAVA – PROJECT REPORT
+Project Title
+Campus Student Record Manager
+Student Name: Shubh Tiwari
+Registration Number: 25BAI10799
+Course: Programming in Java
 
-Project Title: Campus Student Record Manager
 
-1. INTRODUCTION
-Campus Student Record Manager is a command-line Java application for maintaining basic student academic records. It supports common record-management operations and stores data in a CSV file.
+1. Introduction
+Campus Student Record Manager is a command-line based Java application developed to maintain basic student academic records. The application allows the user to add, display, search, update, delete and sort student records. It also calculates average marks and stores records in a CSV file.
 
-2. OBJECTIVES
-- Apply Java object-oriented programming.
-- Use collections to manage multiple records.
-- Demonstrate exception handling and file I/O.
-- Build a program that executes from a terminal.
 
-3. FEATURES
-Add, display, search, update and delete student records; sort by name; calculate average marks; save and load CSV data; validate input.
+2. Objectives
+To develop a practical application using Java.
+To understand and apply Object-Oriented Programming concepts.
+To use ArrayList for storing multiple student records.
+To implement exception handling and input validation.
+To demonstrate file input and output in Java.
+To create an application that can be executed through the command line.
 
-4. TECHNOLOGIES
-Java, JDK 17+, command-line interface and CSV file storage.
 
-5. JAVA CONCEPTS
-Classes and objects, encapsulation, constructors, ArrayList, Comparator, loops, switch, exception handling, BufferedReader and BufferedWriter.
+3. Features
+Add a new student record.
+Display all student records.
+Search for a student using ID.
+Update student information.
+Delete a student record.
+Sort students by name.
+Calculate average marks.
+Save records into a CSV file.
+Load previously saved records.
+Handle invalid user input.
 
-6. ALGORITHM
-1. Start the program.
-2. Load existing CSV records if available.
-3. Display the menu.
-4. Read the selected operation.
-5. Validate input and perform the operation.
-6. Repeat until Save and Exit is selected.
-7. Save records and terminate.
 
-7. COMPILATION AND EXECUTION
-Compile: javac -d out src/*.java
-Run: java -cp out Main
+4. Technologies Used
+Programming Language: Java
+JDK Version: 17 or newer
+Interface: Command Line
+Data Storage: CSV File
 
-8. CONCLUSION
-The application combines core Java, OOP, collections, exception handling and file processing in a practical terminal-based project.
+
+5. Java Concepts Used
+Classes and Objects
+The project uses classes such as Student, StudentRepository, and Main to organize the application.
+Encapsulation
+Student information is stored using private data members and accessed through methods.
+Collections
+ArrayList is used to store and manage multiple student records.
+Control Statements
+if, switch, and loops are used for decision making and repeated operations.
+Exception Handling
+try-catch blocks are used to handle invalid input and file-related errors.
+File I/O
+BufferedReader and BufferedWriter are used to read and write student records.
+
+
+6. Module Description
+Student.java
+Contains the Student class and stores student ID, name, course, and marks.
+StudentRepository.java
+Handles saving student records to a CSV file and loading them when the program starts.
+Main.java
+Contains the main program, menu, and operations performed by the user.
+
+
+7. Working / Methodology
+The application starts and checks for previously saved records.
+Existing records are loaded from the CSV file.
+The main menu is displayed.
+The user selects an operation.
+Required information is taken from the user.
+Input is validated.
+The selected operation is performed.
+The user can continue performing operations.
+Records can be saved to the CSV file.
+The program exits when the user selects Save and Exit.
+
+
+8. Compilation and Execution
+Compile the program using:
+javac -d out src/*.java
+Run the program using:
+java -cp out Main
+
+
+9. Expected Output
+The application displays a menu similar to:
+
+========== CAMPUS STUDENT RECORD MANAGER ==========
+1. Add student
+2. Display students
+3. Search student
+4. Update student
+5. Delete student
+6. Sort by name
+7. Show average marks
+8. Save records
+9. Save and exit
+
+
+10. Conclusion
+The Campus Student Record Manager demonstrates the practical use of Java programming concepts including classes and objects, encapsulation, collections, sorting, exception handling, and file handling. The project provides a simple way to manage student academic records through a command-line interface.
+
+
+11. Future Enhancements
+
+Add a graphical user interface.
+Add database connectivity using JDBC.
+Add login and authentication.
+Generate student performance reports.
+Add more academic information and filtering options.
