@@ -4,67 +4,64 @@ Project Title: Campus Student Record Manager
 
 Course: Programming in Java
 
-1. Problem Statement
-Managing student academic records manually can be time-consuming and may lead to errors while adding, searching, updating, or maintaining student information. There is a need for a simple computerized system that can organize student records and provide basic operations through an easy-to-use interface.
+1. Introduction
+The task of maintaining academic records of students by hand can be extremely tedious and error-prone when dealing with additions, searches, updates, and maintenance of student records. This project proposes a simple computerized system that can maintain student records along with basic operations of adding, displaying, searching, and updating student records with ease through a friendly command-line interface.
 
 2. Proposed Solution
-Campus Student Record Manager is a Java-based command-line application designed to manage student academic records efficiently. The system allows users to add, display, search, update, delete, and sort student records. It can also calculate average marks and store records in a CSV file so that previously saved information can be loaded when the application starts.
+The Campus Student Record Manager is a java-based command-line application that helps manage students’ academic records with ease. The application allows users to add, display, search, update, delete, and sort student records. Additionally, it can calculate average marks and save the records in a CSV file to enable the application to load existing data on start-up.
 
 3. Objectives
-• To develop a practical application using Java.
-• To apply Object-Oriented Programming concepts.
-• To use ArrayList for managing multiple student records.
-• To implement input validation and exception handling.
-• To demonstrate file input/output operations.
-• To provide basic student record management through a command-line interface.
+• Develop a working application using Java
+• Implement Object-Oriented concepts
+• Use ArrayList to store multiple student records
+• Perform input validation and exception handling
 
-4. Main Features
-• Add student record
-• Display all student records
-• Search student by ID
-• Update student information
+• Demonstrate File Input/Output concept
+• Provide a basic command-line interface for managing student records
+4. Features
+The following are the features to be implemented in the Campus Student Record Manager:
+
+• Student record addition
+• Display all the student records
+• Search student record by ID
+
+• Update student record
 • Delete student record
-• Sort students by name
+• Sort student records by name
 • Calculate average marks
-• Save records to a CSV file
-• Load previously saved records
-• Handle invalid user input
-
-5. Technologies Used
+• Save student records in CSV file
+• Load existing student records from CSV file
+• Handle invalid user inputs
+5. Technologies
+The following will be used to develop the application:
 Programming Language: Java
-JDK: 17 or newer
+JDK: 17 or higher
 Interface: Command Line
 Data Storage: CSV File
-
-6. Java Concepts Used
+6. Java Concepts
+The following Java concepts will be applied in the development of the application:
 • Classes and Objects
 • Encapsulation
 • ArrayList / Collections
 • Conditional statements and loops
-• Exception Handling
+• Exceptions handling
 • File Input/Output
 • Sorting
-
 7. Project Modules
-Student.java:
-Stores student information such as ID, name, course, and marks.
+The following modules will be developed:
+Student.java: This class will be used to hold student data including student ID, name, course, and marks.
+StudentRepository.java: This class will be used to manage reading and writing of student records from/to a CSV file.
 
-StudentRepository.java:
-Manages storing and loading student records using a CSV file.
-
-Main.java:
-Contains the main menu and handles user operations such as adding, searching, updating, deleting, sorting, and saving records.
-
-8. Expected Outcome
-The project provides a simple and practical system for maintaining student academic records. It demonstrates how Java programming concepts can be combined to build a functional command-line application with persistent file storage.
-
-9. Future Enhancements
-• Graphical User Interface (GUI)
-• Database connectivity using JDBC
-• Login and authentication
-• Student performance reports
-• Advanced search and filtering
-• Additional academic information
-
+Main.java: This class will demonstrate the application’s features including the addition of student records, searching, sorting, and deletion of records.
+8. Expected Results
+The project will produce a working command-line application that can manage student records with ease and demonstrate key concepts of Java programming language.
+9. Future Scope
+The following future enhancements can be considered:
+• Building a Graphical User Interface (GUI) version of the application
+• Store records in a relational database using JDBC
+• Add login and authentication system
+• Generate student performance reports
+• Add advanced search and filtering options
+• Store additional academic related information
 Conclusion
-Campus Student Record Manager demonstrates the practical application of Java, Object-Oriented Programming, collections, exception handling, sorting, and file handling. The project provides a basic but useful solution for managing student academic records in a structured manner.
+Campus Student Record Manager project demonstrates the practical applications of Java, Object-Oriented Programming (OOP), encapsulation, collections, exceptions handling, sorting, and file input/output concepts.
